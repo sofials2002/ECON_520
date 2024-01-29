@@ -1,1 +1,48 @@
 ## GitHub and Git Commands
+Push: 
+Pull: 
+Commit: 
+Stage: 
+
+Main shell commands: 
+
+
+
+To stage ("add") a file or group of files: 
+$ git add NAME-OF-FILE-OR-FOLDER
+
+1: staging: 
+
+To stage a new file: 
+$ git add .
+
+To stage all files: 
+$ git add -A
+To stage only updated files: 
+$ git add -u
+
+2: commiting: 
+$ git commit -m "Helpful message"
+
+3: pulling:
+pulling from the upstream repo (GitHub): 
+$ git pull
+
+4: Pushing: 
+pushing any local changes from your desktop upstream: 
+$ git push
+
+** Note: to avoid merging conflicts, always PULL before you PUSH!!!
+Solving merging conflicts: Manually editing the README file. 
+Person who fixes the merge conflics gets to decide what to keep. 
+Another solution (more elegant and democratic) is using Branches. 
+
+How does Git track changes? 
+By evaluating an invisible character at the end of every line.
+
+For Linux and MacOS, that ending is "LF".
+For Windows, that ending is "CRLF"
+These line endings for the different OS (operating systems) can be conflicting. 
+
+Here's a useful link showing the emojis you can use in markdown: https://gist.github.com/rxaviers/7360908
+
