@@ -46,3 +46,11 @@ These line endings for the different OS (operating systems) can be conflicting.
 
 Here's a useful link showing the emojis you can use in markdown: https://gist.github.com/rxaviers/7360908
 
+Creating a new branch on local machine, & switching to it: 
+$ git checkout -b NAME-OF-YOUR-NEW-BRANCH
+
+Pushing it to GitHub: 
+$ git push origin NAME-OF-YOUR-NEW-BRANCH
+
+List all branches on your local machine:
+$ git branch
